@@ -1,0 +1,8 @@
+[
+    { "name": "Jam Tangan", "price": "Rp.6.999,000", "image": "assets\\Jam.jpg" },
+    { "name": "Sepatu", "price": "Rp.1.199,000","image": "assets\\Sepatu.jpg"},
+    { "name": "Long Sleeve", "price": "Rp.399,000","image": "assets\\LongSleeve.jpg" },
+    { "name": "Dompet", "price": "Rp.699,000","image": "assets\\Dompet.jpg" },
+    { "name": "Belt", "price": "Rp.599,000","image": "assets\\Belt.jpg" },
+    { "name": "Celana", "price": "Rp.499,000","image": "assets\\Celana.jpg" }
+]

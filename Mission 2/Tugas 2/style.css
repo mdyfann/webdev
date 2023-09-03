@@ -1,0 +1,104 @@
+h2,h3{
+    text-align: center;
+}
+
+#board{
+    width: 1000px;
+    height: 500px;
+    background: url('assets\\road.png');
+    background-size: 100% 100%;
+    margin: 20px auto;
+}
+
+#area{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+}
+
+@keyframes run{
+    0%{
+        background: url('assets\\Run\\run1.png');
+        background-size: 100% 100%;
+    }
+    25%{
+        background: url('assets\\Run\\run2.png');
+        background-size: 100% 100%;
+    }
+    50%{
+        background: url('assets\\Run\\run3.png');
+        background-size: 100% 100%;
+    }
+    75%{
+        background: url('assets\\Run\\run4.png');
+        background-size: 100% 100%;
+    }
+    100%{
+        background: url('assets\\Run\\run5.png');
+        background-size: 100% 100%;
+    }
+}
+
+@keyframes jump{
+    0%{
+        background: url('assets\\Jump\\jump1.png');
+        background-size: 100% 100%;
+    }
+    25%{
+        background: url('assets\\Jump\\jump2.png');
+        background-size: 100% 100%;
+    }
+    50%{
+        background: url('assets\\Jump\\jump3.png');
+        background-size: 100% 100%;
+    }
+    75%{
+        background: url('assets\\Jump\\jump4.png');
+        background-size: 100% 100%;
+    }
+    100%{
+        background: url('assets\\Jump\\jump5.png');
+        background-size: 100% 100%;
+    }
+
+}
+
+#dino.dead{
+    animation: none;
+    background: url('assets\\Dead\\dead.png');
+    background-size: 100% 100%;
+}
+
+#dino{
+    width: 200px;
+    height: 150px;
+    background: url('assets\\Run\\run1.png');
+    background-size: 100% 100%;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 40px;
+    animation: run 0.3s infinite;
+    transition: 1s;
+}
+
+#dino.jump{
+    width: 200px;
+    height: 150px;
+    background: url('assets\\Jump\\jump1.png');
+    background-size: 100% 100%;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 40px;
+    animation: jump 0.3s infinite;
+    transition: 1s;
+}
+
+#rock{
+    width: 150px;
+    height: 100px;
+    margin-top: 330px;
+    margin-left: 999px;
+    background: url('assets\\rock.png');
+    background-size: 100% 100%;
+}
